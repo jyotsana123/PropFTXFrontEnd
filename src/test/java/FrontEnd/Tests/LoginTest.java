@@ -24,7 +24,7 @@ public class LoginTest extends BaseTest {
 	}
 
 	@Test
-	public void loginWithotPhoneNom() throws InterruptedException {
+	public void loginWithoutPhoneNom() throws InterruptedException {
 		login.clickOnLoginButton();
 		login.enterPhoneNo("");
 		login.clickOnGetOTPButton();
